@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Images\pexels-photo-462118.jpeg" />
+    <None Include="README.MD" />
     <None Include="Resources\ShaderEffects\Grayscale.hlsl" />
   </ItemGroup>
   <ItemGroup />
