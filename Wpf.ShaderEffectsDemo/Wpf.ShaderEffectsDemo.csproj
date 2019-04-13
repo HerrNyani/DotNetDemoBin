@@ -102,7 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Images\pexels-photo-462118.jpeg" />
-    <Content Include="Resources\ShaderEffects\Grayscale.hlsl" />
+    <None Include="Resources\ShaderEffects\Grayscale.hlsl" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

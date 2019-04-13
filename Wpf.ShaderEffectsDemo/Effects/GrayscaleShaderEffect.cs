@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Effects;
 
@@ -18,7 +19,7 @@ namespace DotNetDemoBin.Wpf.ShaderEffectsDemo.Effects
 
         private static readonly PixelShader DefaultGrayscalePixelShader = new PixelShader
         {
-            UriSource = new System.Uri("pack://application:,,,/Resources/ShaderEffects/Grayscale.fxc")
+            UriSource = new Uri("pack://application:,,,/Resources/ShaderEffects/Grayscale.fxc")
         };
 
         public GrayscaleShaderEffect()

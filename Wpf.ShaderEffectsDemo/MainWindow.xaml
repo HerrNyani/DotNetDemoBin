@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DotNetDemoBin.Wpf.ShaderEffectsDemo"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ShaderEffects demo" Height="450" Width="800">
     <UniformGrid Columns="2">
         <Image Source="{StaticResource InputBitmapImage}" />
         <Image Source="{StaticResource InputBitmapImage}" Effect="{StaticResource GrayscaleEffect}" />
