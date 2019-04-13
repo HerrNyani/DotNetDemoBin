@@ -16,10 +16,15 @@ namespace DotNetDemoBin.Wpf.ShaderEffectsDemo.Effects
             nameof(DesaturationFactor), typeof(double), typeof(GrayscaleShaderEffect),
             new UIPropertyMetadata(0.0, PixelShaderConstantCallback(0), CoerceDesaturationFactor));
 
+        private static readonly PixelShader DefaultGrayscalePixelShader = new PixelShader
+        {
+            UriSource = new System.Uri("pack://application:,,,/Resources/ShaderEffects/Grayscale.fxc")
+        };
+
         public GrayscaleShaderEffect()
         {
             // Assign the PixelShader to the base.PixelShader property.
-            base.PixelShader = (PixelShader)Application.Current.Resources["GrayscalePixelShader"];
+            base.PixelShader = DefaultGrayscalePixelShader;
 
             // Update shader values
             UpdateShaderValue(InputProperty);

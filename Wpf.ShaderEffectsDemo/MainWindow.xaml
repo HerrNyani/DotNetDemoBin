@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:DotNetDemoBin.Wpf.ShaderEffectsDemo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <UniformGrid Columns="2">
+        <Image Source="{StaticResource InputBitmapImage}" />
+        <Image Source="{StaticResource InputBitmapImage}" Effect="{StaticResource GrayscaleEffect}" />
+    </UniformGrid>
 </Window>

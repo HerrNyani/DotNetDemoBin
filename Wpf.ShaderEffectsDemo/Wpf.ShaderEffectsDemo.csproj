@@ -68,7 +68,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ResourceDictionaries\PixelShaderResourceDictionary.xaml">
+    <Page Include="ResourceDictionaries\ImageResourceDictionary.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,12 +95,13 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\ShaderEffects\Grayscale.fxc" />
+    <Resource Include="Resources\ShaderEffects\Grayscale.fxc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\Images\pexels-photo-462118.jpeg" />
     <Content Include="Resources\ShaderEffects\Grayscale.hlsl" />
   </ItemGroup>
   <ItemGroup />
