@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.ShaderEffectsDemo", "Wp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo", "Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo\Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo.csproj", "{8FBD72CD-D94F-4E3F-802F-B9934A311844}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8341A6D3-D0EE-4EAA-A4EE-5657AD638434}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
