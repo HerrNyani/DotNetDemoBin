@@ -4,9 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DotNetDemoBin.Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviors="clr-namespace:DotNetDemoBin.Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo.Behaviors"
         mc:Ignorable="d"
         Title="Periodic PropertyBinding update with an attached Behavior" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30">
+            <Run Text="The current date and time is" />
+            <Run Text="{Binding NowDateTime, Mode=OneWay, FallbackValue='not available.'}">
+                <i:Interaction.Behaviors>
+                    <behaviors:PeriodicPropertyBindingUpdateBehavior Interval="0:00:01" PropertyToUpdate="{x:Static Run.TextProperty}" />
+                </i:Interaction.Behaviors>
+            </Run>
+        </TextBlock>
+    </DockPanel>
 </Window>

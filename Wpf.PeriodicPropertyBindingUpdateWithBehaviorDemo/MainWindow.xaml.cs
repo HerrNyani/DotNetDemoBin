@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 
 namespace DotNetDemoBin.Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo
 {
@@ -10,6 +11,9 @@ namespace DotNetDemoBin.Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = this;
         }
+
+        public DateTime NowDateTime => DateTime.Now;
     }
 }
