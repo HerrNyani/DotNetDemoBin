@@ -7,12 +7,12 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PeriodicPropertyBindingUpdateWithBehaviorDemo")]
+[assembly: AssemblyDescription("This demo shows how to periodically update a PropertyBinding using a Behavior.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("HerrNyani")]
 [assembly: AssemblyProduct("Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCopyright("Copyright © HerrNyani/J.R. Deplorez 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
