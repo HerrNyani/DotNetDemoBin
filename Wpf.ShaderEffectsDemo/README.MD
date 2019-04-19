@@ -11,9 +11,9 @@ Requirements
 
 Keystones
 ---------
-* Resources/ShaderEffects/Grayscale.hlsl: The HLSL (High-level shader Language) definition of your shader. Not required to run the C# solution.
-* Resources/ShaderEffects/Grayscale.fxc: The compiled output of the hlsl-file. Must be added to the project with *Build Action* set to **Resource**.
-* Class Effects.GrayscaleShaderEffect: Interfaces your compiled shader to the .NET framework.
+* [Grayscale.hlsl](Resources/ShaderEffects/Grayscale.hlsl): The HLSL (High-level shader Language) definition of your shader. Not required to run the C# solution.
+* [Grayscale.fxc](Resources/ShaderEffects/Grayscale.fxc): The compiled output of the hlsl-file. Must be added to the project with *Build Action* set to **Resource**.
+* [Effects.GrayscaleShaderEffect](Effects/GrayscaleShaderEffect.cs): Interfaces your compiled shader to the .NET framework.
 
 
 Building the HLSL file
