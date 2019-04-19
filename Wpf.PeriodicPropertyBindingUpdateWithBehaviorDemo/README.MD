@@ -12,7 +12,7 @@ Acquiring the System.Windows.Interactivity DLL
 ----------------------------------------------
 The PeriodicPropertyBindingUpdateBehavior extends from [`System.Windows.Interactivity.Behavior<DependencyObject>`](https://docs.microsoft.com/en-us/previous-versions/visualstudio/design-tools/expression-studio-4/ff726531(v%3Dexpression.40)), 
 which is defined in the *System.Windows.Interactivity* DLL.
-To get the DLL, open the NuGet browser and search for the [**System.Windows.Interactivity.WPF**](https://www.nuget.org/packages/System.Windows.Interactivity.WPF/) package and install it.
+To get the DLL, open the NuGet browser and search for the [**System.Windows.Interactivity.WPF** package](https://www.nuget.org/packages/System.Windows.Interactivity.WPF/) and install it.
 
 
 Using a Behavior in WPF
