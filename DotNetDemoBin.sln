@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wpf", "Wpf", "{3C425350-351
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.ShaderEffectsDemo", "Wpf.ShaderEffectsDemo\Wpf.ShaderEffectsDemo.csproj", "{4301A9B8-DB89-4EB4-809B-7735DA002989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo", "Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo\Wpf.PeriodicPropertyBindingUpdateWithBehaviorDemo.csproj", "{8FBD72CD-D94F-4E3F-802F-B9934A311844}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{4301A9B8-DB89-4EB4-809B-7735DA002989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4301A9B8-DB89-4EB4-809B-7735DA002989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4301A9B8-DB89-4EB4-809B-7735DA002989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBD72CD-D94F-4E3F-802F-B9934A311844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBD72CD-D94F-4E3F-802F-B9934A311844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBD72CD-D94F-4E3F-802F-B9934A311844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBD72CD-D94F-4E3F-802F-B9934A311844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4301A9B8-DB89-4EB4-809B-7735DA002989} = {3C425350-351A-4AFF-BA01-960F41EC8606}
+		{8FBD72CD-D94F-4E3F-802F-B9934A311844} = {3C425350-351A-4AFF-BA01-960F41EC8606}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {675F5CF4-2BBF-4178-B3E9-C0E4D4A596F7}
