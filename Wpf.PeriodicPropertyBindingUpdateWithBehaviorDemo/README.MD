@@ -5,7 +5,7 @@ Periodically update the target of a bound control. Can be used if a class cannot
 
 Keystones
 ---------
-* PeriodicPropertyBindingUpdateBehavior: Calls `UpdateTarget()` on the binding every time the internal timer ticks.
+* [PeriodicPropertyBindingUpdateBehavior](Behaviors/PeriodicPropertyBindingUpdateBehavior.cs): Calls `UpdateTarget()` on the binding every time the internal timer ticks.
 
 
 Acquiring the System.Windows.Interactivity DLL
