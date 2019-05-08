@@ -1,7 +1,7 @@
 ﻿Custom configuration sections for app.config and web.config
-===========================================================
+============================================================
 
-This demo shows how to define, map and access a custom app.config section.
+This demo shows how to define, map and access a custom XML configuration section.
 
 Requirements
 ------------
