@@ -45,6 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationConfiguration\Chat\ChatConfigurationSection.cs" />
+    <Compile Include="ApplicationConfiguration\Chat\ChatServerConfigurationElement.cs" />
+    <Compile Include="ApplicationConfiguration\Chat\ChatServerConfigurationElementCollection.cs" />
+    <Compile Include="ApplicationConfiguration\Chat\PushToTalkActivationVoiceChatConfigurationElement.cs" />
+    <Compile Include="ApplicationConfiguration\Chat\TextChatConfigurationElement.cs" />
+    <Compile Include="ApplicationConfiguration\Chat\VoiceActivationVoiceChatConfigurationElement.cs" />
+    <Compile Include="ApplicationConfiguration\Chat\VoiceChatConfigurationElement.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
