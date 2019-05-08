@@ -6,7 +6,7 @@ This demo showcases the use of a ShaderEffect subclass to access a compiled Pixe
 
 Requirements
 ------------
-* .NET 3.5 SP1 or later
+* .NET Framework 3.5 SP1 or later
 
 
 Keystones
